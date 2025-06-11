@@ -94,7 +94,7 @@ struct Constants
               std::array<double,4> idGA12, std::array<double,4> idGA13, std::array<double,4> idGA21,
               std::array<double,4> idGA23, std::array<double,4> idGA31, std::array<double,4> idGA32,
               std::array<double,4> ida1, double ida1mkd, std::array<double,4> ida2, double ida2mkd, std::array<double,4> ida3, double ida3mkd, bool immA):
-              dG12(idG12), dG13(idG13), dG21(idG21), dG23(idG23), dG31(idG13), dG32(idG32), dKG1(idKG1), dKG2(idKG2), dKG3(idKG3),
+              dG12(idG12), dG13(idG13), dG21(idG21), dG23(idG23), dG31(idG31), dG32(idG32), dKG1(idKG1), dKG2(idKG2), dKG3(idKG3),
               dw1(idw1), dw1dT(idw1dT), dwT1dT(idwT1dT), dw2(idw2), dw2dT(idw2dT), dwT2dT(idwT2dT), dw3(idw3), dw3dT(idw3dT), dwT3dT(idwT3dT), dTnom(idTnom), A1(iA1), A2(iA2), A3(iA3),
               dKA1(idKA1), dKA2(idKA2), dKA3(idKA3), dGA12(idGA12), dGA13(idGA13), dGA21(idGA21), dGA23(idGA23), dGA31(idGA31), dGA32(idGA32),
               da1(ida1), da1mkd(ida1mkd), da2(ida2), da2mkd(ida2mkd), da3(ida3), da3mkd(ida3mkd){}
